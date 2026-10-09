@@ -42,7 +42,7 @@ def filters(query: Query):
     found = tags(query.question)
     end_day = query.end_date or query.as_of or date.today()
     days = query.days
-    match = re.search(r"(?:近|最近|过去|last\s+|past\s+)(\d+)\s*(?:天|日|days?)", query.question, re.I)
+    match = re.search(r"(?:近|最近|过去|last|past)\s*(\d+)\s*(?:天|日|days?)", query.question, re.I)
     if days is None:
         days = int(match[1]) if match else 7 if any(x in query.question for x in ("近一周", "最近一周", "过去一周")) else 30
     if not 1 <= days <= 366:

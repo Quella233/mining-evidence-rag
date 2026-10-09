@@ -94,6 +94,34 @@ def test_explicit_filters_override_inference():
     assert (applied["end"] - applied["start"]).days == 14
 
 
+@pytest.mark.parametrize("question", [
+    "近7天澳洲锂出口政策有何变化？",
+    "近 7 天澳洲锂出口政策有何变化？",
+    "近  7  天澳洲锂出口政策有何变化？",
+    "最近7天澳洲锂出口政策有何变化？",
+    "过去 7 天澳洲锂出口政策有何变化？",
+    "近一周澳洲锂出口政策有何变化？",
+    "last 7 days lithium export policy changes?",
+    "past 7 days lithium policy",
+])
+def test_natural_language_window_parsing(question):
+    applied = filters(Query(question=question, as_of=date(2026, 10, 8)))
+    assert (applied["end"] - applied["start"]).days == 7
+    assert applied["start"] == datetime(2026, 10, 2, tzinfo=timezone.utc)
+
+
+def test_natural_language_entities():
+    applied = filters(Query(question="近 7 天澳洲锂出口政策有何变化？", as_of=date(2026, 10, 8)))
+    assert applied["kind"] == "policy"
+    assert applied["country"] == "australia"
+    assert applied["commodity"] == "lithium"
+
+
+def test_natural_language_window_without_time_words_defaults_to_30():
+    applied = filters(Query(question="澳洲锂出口政策有何变化？", as_of=date(2026, 10, 8)))
+    assert (applied["end"] - applied["start"]).days == 30
+
+
 @pytest.mark.parametrize("values", [dict(question=" "), dict(question="测试", top_k=100), dict(question="测试", start_date="2026-10-01"), dict(question="测试", start_date="2026-10-08", end_date="2026-10-01")])
 def test_invalid_queries(values):
     with pytest.raises(ValidationError):
