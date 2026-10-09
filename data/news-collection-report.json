@@ -1,0 +1,574 @@
+{
+  "as_of": "2026-10-08",
+  "days": 30,
+  "window_start_inclusive": "2026-09-09T00:00:00+00:00",
+  "window_end_exclusive": "2026-10-09T00:00:00+00:00",
+  "embedding": "hash",
+  "counts_by_source": [
+    {
+      "kind": "news",
+      "source": "Mining-Technology-public-supplement",
+      "n": 115
+    },
+    {
+      "kind": "policy",
+      "source": "Australia-DISR",
+      "n": 1
+    },
+    {
+      "kind": "price",
+      "source": "SHFE-public-supplement",
+      "n": 576
+    }
+  ],
+  "counts_by_kind": {
+    "news": 115,
+    "policy": 1,
+    "price": 576
+  },
+  "category_quantity_target_met": false,
+  "original_source_requirements_met": false,
+  "unresolved_requirements": [
+    {
+      "name": "LME-copper-zinc-nickel",
+      "reason": "Supply licensed CSV/JSONL or authorized API export. Public page returned HTTP 403 during initial check; no login bypass."
+    },
+    {
+      "name": "Mysteel-iron-ore",
+      "reason": "Supply licensed CSV/JSONL export; no unverified private API or credentials are included."
+    },
+    {
+      "name": "Lithium",
+      "reason": "The prompt says SHFE lithium; Chinese lithium carbonate futures are on GFEX, not SHFE. Confirm whether GFEX futures or licensed spot prices are intended."
+    },
+    {
+      "name": "S&P-Global-Mining",
+      "reason": "The prompt says RSS links are supplied, but no exact feed URL was attached. Add the provided feed as adapter=rss."
+    }
+  ],
+  "runs": [
+    {
+      "name": "mining.com",
+      "counts": {},
+      "errors": [
+        {
+          "error": "Client error '403 Forbidden' for url 'https://www.mining.com/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        }
+      ]
+    },
+    {
+      "name": "International-Mining-public-supplement",
+      "counts": {},
+      "errors": [
+        {
+          "url": "https://im-mining.com/2026/10/08/micromine-pitram-celebrates-double-gold-at-industry-awards/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/08/sandvik-looks-to-raise-mining-expertise-with-new-education-program/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/07/caterpillar-powers-remote-gold-mining-operation-with-continuous-scalable-solution/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/07/spmt-major-tii-group-makes-largest-ever-investment-at-pfedelbach-site/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/07/large-underground-mobile-fleet-up-for-grabs-in-finsch-asset-sale/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/07/bme-on-engineering-smarter-explosive-supply-for-african-mining/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/07/abbs-power-conversion-system-for-fortescues-north-star-junction-hub/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/07/eora-energy-and-tulla-group-form-jv-focused-on-mining-remote-energy-projects/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/07/trelleborg-out-to-optimise-inflation-systems-for-otr-tyres-with-turcon-sg-rotary-seal/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/07/cemtec-and-eirich-partner-to-deliver-comprehensive-grinding-solutions-for-mining/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/06/atlantic-nickel-record-production-as-underground-transition-advances/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/06/advanced-navigation-opens-us-manufacturing-to-scale-tech-for-gps-denied-mines/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/06/multotec-expands-manufacturing-assembly-service-support-in-zambia/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/06/electric-e-air-compressors-up-productivity-in-mexican-silver-gold-mines/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/06/fulcrum-metals-heading-for-pilot-testing-of-extrakts-non-cyanide-gold-recovery-process/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/06/glencore-technology-makes-jameson-cell-coarse-particle-recovery-breakthrough-with-antapaccay-test-work/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/06/specim-launches-new-high-performance-vnir-hyperspectral-camera/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/06/capital-limited-positions-itself-as-worlds-leading-underground-rc-drilling-contractor-with-mdu-buy/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/05/adenco-upgrades-water-infrastructure-at-northern-stars-kcgm-mill-expansion-project/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/05/fmf-2027-to-explore-global-collaboration-for-a-resilient-mineral-supply/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/05/fifth-cohort-of-start-ups-join-founders-factorys-mining-tech-accelerator-with-rio-tinto/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/05/eacon-tonly-advance-purpose-built-cabless-auto-haulage-with-eq100e/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/05/metso-to-repower-thickeners-at-chile-mine-site/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/05/macmahon-secures-two-year-extension-at-vaults-daisy-milano-underground-mine/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/05/south32s-hermosa-project-earns-mine-safety-award-in-the-us/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/02/global-air-cylinder-wheels-asw-receives-safety-recognition-in-queensland/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/02/imarc-organisers-look-to-match-up-mets-companies-with-mining-decision-makers/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/02/toyota-and-bhp-build-on-hilux-bev-trial-with-deployment-at-goonyella-riverside/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/02/beml-unveils-indias-first-battery-electric-60-t-class-mining-truck/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/01/feature-article-flotation-5/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/01/eacon-focus-on-customer-provided-fleet-model-fuels-844-gross-profit-increase/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/01/epiroc-launches-et55-drill-string-the-successor-to-st58/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/01/redpath-on-building-the-capability-for-africas-mining-future-beyond-the-orebody/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/10/01/dyno-nobel-prototypes-autonomous-blasthole-inspection-loading-technology/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/30/chinas-bev-mining-truck-supplier-breton-looks-to-grow-in-overseas-markets/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/30/liebherr-canada-delivers-new-r-9150-excavator-to-hammerstone-quarry/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/30/geological-survey-of-finland-acquires-two-roxia-smart-filter-press-filters/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/30/metso-bolsters-slurry-pump-testing-capabilities-with-4-mw-test-rig-in-sala/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/30/epiroc-to-deliver-low-profile-equipment-to-sibanye-stillwaters-rustenburg-operations/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/30/sandvik-on-the-latest-leaps-in-underground-development-drilling/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/29/sumitomo-highlights-chile-copper-strategy-behind-dos-amigos-investment/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/29/eldorado-gold-announces-completion-of-skouries-mine-energisation/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/29/anglo-american-begins-use-of-desalinated-water-at-los-bronces/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/29/caterpillar-grows-quarrying-ahs-further-with-richards-spur-deployment/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/29/maca-to-continue-mining-engagement-at-okvau-gold-mine-in-cambodia/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/29/perentis-drilling-and-mining-businesses-bank-more-than-a200m-of-work/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/28/moroccos-first-large-scale-battery-storage-system-powered-up-at-ocps-benguerir/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/28/eacon-validates-ahs-in-extended-tunnel-sections-at-zijinshan-mine/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/28/sandvik-to-supply-27-unit-fleet-to-qarmet-subsidiary-orken-in-kazakhstan/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/26/titan-international-signs-definitive-agreement-to-sell-itm-undercarriage-business-to-schlam-owner-usco-spa/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/26/three-million-tonnes-hauled-autonomously-by-volvo/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/25/martin-engineering-expanding-in-ghana-with-help-of-aggrey-associates/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/25/bqe-water-restarts-kemess-selen-ix-plant-in-british-columbia/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/24/sandvik-launches-new-reconciliation-action-plan-after-10-year-journey-in-australia/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/24/accenture-construct-aimed-at-reinventing-fragmented-capital-project-delivery/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/23/barrick-to-put-avathon-ai-solution-to-work-at-north-american-assets/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/23/wolfram-what-50-years-of-tungsten-production-teaches-us-about-supply-resilience/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/23/tonly-delivers-battery-electric-75-t-class-tle120-fleet-to-wengfu-phosphate-mine/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/23/jevons-robotics-launches-battery-electric-artev1000-pre-split-system/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/23/bhp-amazon-establish-industry-first-pilot-for-lower-emissions-copper-market/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/22/komatsus-ahs-journey-past-present-and-future/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/22/ok-tedi-introduces-worlds-first-arcsar-neo-radar-systems-from-ids-georadar/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/22/bme-advances-mine-safety-through-practical-operator-training/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/22/orenovas-ai-tools-help-accelerate-dfs-outcomes-for-horizon-gold/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/22/metso-banks-largest-lcs-analyser-order-to-date/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/22/globe-24-7-trust-africa-launch-globe-trust-24-7-to-strengthen-mining-recruitment-in-west-africa/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/22/wabtec-wins-plus-700-million-services-order-for-simandou/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/21/continental-inaugurates-in-company-store-at-vales-s11d-complex/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/21/argentinas-mining-sector-ramp-up-reflected-in-new-location-openings-for-fls-and-sandvik/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/21/emerging-mining-truck-player-shuanglin-begins-cooperation-with-leading-ahs-player-tage-idriver/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/21/sandvik-striving-for-toro-standard-as-part-of-new-electrification-strategy/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/21/omniflex-restores-mine-wide-monitoring-of-water-pumping-systems-at-nkomati-nickel-plant/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/21/liebherr-opens-new-training-centre-in-western-australia/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/21/mms-makes-a-fast-start-at-tennant-mines-white-devil-project/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/21/caravel-working-with-thiess-on-mine-plan-that-could-include-autonomous-drilling-haulage/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/21/lycopodium-to-manage-havieron-build-on-behalf-of-greatland-resources/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/18/boton-and-simfer-sign-long-term-conveyor-system-services-agreement-for-simandou-iron-ore-project/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/18/xcmg-breaks-ground-on-first-overseas-base-for-mining-equipment-component-overhaul-reman-in-indonesia/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/18/allied-gold-marks-next-step-towards-kurmuk-mine-commissioning/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/18/redpath-africa-expanding-its-underground-mining-proposition/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/18/macmahon-to-enter-minerals-processing-service-space-with-aspect-engineering-buy/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/17/almonty-industries-to-supply-los-santos-mine-retreated-tailings-to-sandviks-wolfram-bergbau-und-hutten/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/17/bhp-assessing-productivity-impact-of-battery-truck-use-with-static-charging/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/17/riegl-brings-dynamic-scanning-modes-to-the-market-with-minivz-500-compact-3d-lidar-sensor/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/17/syntax-offers-operators-forward-looking-control-over-maintenance-spend/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/16/imt-deploying-wabtecs-gen-3-cas-on-liebherr-t-264-fleet-at-gamsberg-zinc-mine/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/16/hexagon-looks-to-turn-mine-safety-data-into-action-with-cas-insights/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/16/alfred-h-knight-expands-analytical-capabilities-in-mozambique/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/16/cementation-africa-drives-zibulo-north-shaft-success-through-innovation-and-underground-expertise/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/16/trolley-assist-leader-first-quantum-minerals-secures-patent-and-trademark-for-quantum-electra-haul/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/16/komatsu-partners-with-mc-saatchi-performance-to-showcase-mining-career-opportunities/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/16/caterpillar-to-deploy-ahs-on-775-trucks-for-first-time-as-part-of-expansion-with-luck-stone-to-two-more-sites/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/16/indias-mahansaria-investing-us100-million-in-giant-otr-radial-tyre-production-capability-under-ascenso-brand/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/15/turning-ambition-into-action-caterpillar-on-a-practical-path-to-the-electric-mine/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/15/emesent-trimble-aim-for-capture-connect-and-create-pipeline-with-slam-data-integration/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/15/tungsten-west-advances-hemerdon-restart-with-tomra-mining-sorting-tech-a-key-component-of-redesigned-plant/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/15/sandvik-advances-cybersecurity-for-intelligent-mining-equipment/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/14/techking-signs-cooperation-deal-with-boonray-on-tyre-intelligence-for-autonomous-and-electric-mining-trucks/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/14/codelco-promotes-the-recovery-of-end-of-life-mining-tyres-through-a-strategic-alliance-with-valora-mas/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/14/canada-nickel-lays-groundwork-for-autonomous-electric-fleet-at-crawford-with-komatsu-sms-agreement/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/14/sme-reinforcing-talent-pipeline-with-1-6-million-of-scholarships/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/14/glencore-technology-showcasing-holistic-benefits-of-jameson-cell-at-valterra-platinums-mogalakwena-north-concentrator/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/14/hancock-iron-ore-scales-microsoft-azure-ai-to-extend-rail-lifespan-by-10/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/14/ramelius-taps-primero-epc-expertise-for-mount-magnet-expansion/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/11/how-immersive-thermal-management-is-unlocking-next-generation-of-heavy-duty-electric-machinery/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/11/nokia-launches-ai-and-edge-platform-to-help-run-safer-more-resilient-field-operations/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/11/komatsu-gears-up-for-canadian-growth-with-opening-of-parts-distribution-centre-in-edmonton/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/10/cornish-lithium-marks-battery-milestone-at-trelavour-lithium-project/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/10/master-drilling-awarded-shaft-raiseboring-contract-by-boliden-somincor/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/10/metso-launches-three-new-digital-solutions-to-help-mining-customers-optimise-production-improve-operational-outcomes-enhance-safety/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/10/iwt-selected-for-negotiation-by-us-doe-to-lead-mine-of-the-future-initiative-project/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/10/mlg-oz-wins-three-year-extension-at-ora-bandas-davyhurst-gold-project/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/10/metso-launches-sampo-cell-a-next-generation-coarse-particle-flotation-technology/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/10/ventanas-becomes-first-codelco-operation-to-achieve-100-worker-transport-electromobility/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/10/university-of-arizona-receives-government-funds-for-san-xavier-underground-mining-lab-development/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/10/orica-launches-nextgen-fragtrack-which-is-excavator-deployable/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/09/new-cat-d11-xe-electric-drive-dozer-caterpillar-says-delivers-more-productivity-with-lower-operating-costs/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/09/aspentech-on-targeting-ai-for-operational-impact-in-mining/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/09/bme-looks-to-overcome-electronic-initiation-barriers-with-launch-of-vipertron/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/09/sew-eurodrive-showcased-modernisation-and-lifecycle-support-at-electric-mining-africa-2026/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/09/tru-trac-highlights-growing-role-of-belt-and-thermal-scanning-in-conveyor-reliability/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/09/weir-meaningful-gains-in-comminution-are-achievable-today/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/09/darma-henwa-expands-fleet-with-10-new-liebherr-machines/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        },
+        {
+          "url": "https://im-mining.com/2026/09/09/eldorado-gold-produces-first-copper-gold-concentrate-from-skouries/",
+          "error": "No identifiable article body; selector needs source-specific update"
+        }
+      ]
+    },
+    {
+      "name": "Mining-Technology-public-supplement",
+      "counts": {
+        "inserted": 115,
+        "duplicate": 3
+      },
+      "errors": []
+    }
+  ]
+}

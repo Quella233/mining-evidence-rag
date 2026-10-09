@@ -1,0 +1,102 @@
+{
+  "counts": {
+    "updated": 232,
+    "removed": 7,
+    "unchanged": 1
+  },
+  "errors": [
+    {
+      "url": "https://www.mining-technology.com/analyst-comment/mining-digital-transformation-cybersecurity/",
+      "error": "Article requires authorization"
+    },
+    {
+      "url": "https://www.mining-technology.com/analysis/case-study-bhp-looks-to-mining-waste-for-more-copper/",
+      "error": "Article requires authorization"
+    },
+    {
+      "url": "https://www.industry.gov.au/news?news-topic%5B2941%5D=2941&field_news_date_value=All",
+      "error": "No verifiable publication date (not using crawl date)"
+    },
+    {
+      "url": "https://www.mining-technology.com/analysis/coals-2026-shock-came-from-outside-the-coal-market/",
+      "error": "Article requires authorization"
+    },
+    {
+      "url": "https://www.industry.gov.au/news?news-topic%5B2945%5D=2945&field_news_date_value=All",
+      "error": "No verifiable publication date (not using crawl date)"
+    },
+    {
+      "url": "https://www.industry.gov.au/news?news-topic%5B2906%5D=2906&field_news_date_value=All",
+      "error": "No verifiable publication date (not using crawl date)"
+    },
+    {
+      "url": "https://www.mining-technology.com/analysis/rethinking-leaching-tank-design-to-improve-mineral-recovery/",
+      "error": "Article requires authorization"
+    },
+    {
+      "url": "https://www.mining-technology.com/analysis/how-myanmars-civil-war-is-reshaping-its-mineral-economy/",
+      "error": "Article requires authorization"
+    },
+    {
+      "url": "https://www.industry.gov.au/news",
+      "error": "No verifiable publication date (not using crawl date)"
+    },
+    {
+      "url": "https://www.mining-technology.com/comment/supply-chain-shifts-are-reshaping-australias-manganese-sector/",
+      "error": "Article requires authorization"
+    },
+    {
+      "url": "https://www.mining-technology.com/analysis/new-technologies-target-energy-use-in-australian-ore-processing/",
+      "error": "Article requires authorization"
+    },
+    {
+      "url": "https://www.industry.gov.au/news?news-topic%5B2944%5D=2944&field_news_date_value=All",
+      "error": "No verifiable publication date (not using crawl date)"
+    },
+    {
+      "url": "https://www.chinareg.com/",
+      "error": "No verifiable publication date (not using crawl date)"
+    },
+    {
+      "url": "https://www.industry.gov.au/news?news-topic%5B2970%5D=2970&field_news_date_value=All",
+      "error": "No verifiable publication date (not using crawl date)"
+    },
+    {
+      "url": "https://www.industry.gov.au/news?news-topic%5B3058%5D=3058&field_news_date_value=All",
+      "error": "No verifiable publication date (not using crawl date)"
+    },
+    {
+      "url": "https://www.mining-technology.com/opinion/critical-minerals-supply-starts-with-getting-more-from-existing-mines/",
+      "error": "Article requires authorization"
+    },
+    {
+      "url": "https://www.industry.gov.au/news?news-topic%5B2962%5D=2962&field_news_date_value=All",
+      "error": "No verifiable publication date (not using crawl date)"
+    },
+    {
+      "url": "https://www.industry.gov.au/news?news-topic%5B3057%5D=3057&field_news_date_value=All",
+      "error": "No verifiable publication date (not using crawl date)"
+    },
+    {
+      "url": "https://www.mining-technology.com/analysis/qa-radixplore-on-unlocking-minings-dark-data-with-ai/",
+      "error": "Article requires authorization"
+    }
+  ],
+  "counts_by_source": [
+    {
+      "kind": "news",
+      "source": "International-Mining-public-supplement",
+      "n": 124
+    },
+    {
+      "kind": "news",
+      "source": "Mining-Technology-public-supplement",
+      "n": 109
+    },
+    {
+      "kind": "price",
+      "source": "SHFE-public-supplement",
+      "n": 576
+    }
+  ]
+}

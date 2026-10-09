@@ -1,0 +1,122 @@
+{
+  "question": "cu2706 铜合约结算价格是多少？",
+  "answer": "检索到以下原文证据：\n[1] On 2026-10-08, Shanghai Futures Exchange copper contract cu2706 daily settlement price was 109630 CNY per tonne. This is a futures settlement, not an LME spot quote.\n[2] On 2026-10-08, Shanghai Futures Exchange copper contract cu2610 daily settlement price was 111550 CNY per tonne. This is a futures settlement, not an LME spot quote.\n[3] On 2026-10-08, Shanghai Futures Exchange copper contract cu2612 daily settlement price was 110320 CNY per tonne. This is a futures settlement, not an LME spot quote.\n[4] On 2026-10-08, Shanghai Futures Exchange copper contract cu2611 daily settlement price was 110740 CNY per tonne. This is a futures settlement, not an LME spot quote.\n[5] On 2026-10-08, Shanghai Futures Exchange copper contract cu2701 daily settlement price was 109870 CNY per tonne. This is a futures settlement, not an LME spot quote.",
+  "answer_mode": "extractive",
+  "insufficient_evidence": false,
+  "claims": [
+    {
+      "text": "On 2026-10-08, Shanghai Futures Exchange copper contract cu2706 daily settlement price was 109630 CNY per tonne. This is a futures settlement, not an LME spot quote.",
+      "citation": 1
+    },
+    {
+      "text": "On 2026-10-08, Shanghai Futures Exchange copper contract cu2610 daily settlement price was 111550 CNY per tonne. This is a futures settlement, not an LME spot quote.",
+      "citation": 2
+    },
+    {
+      "text": "On 2026-10-08, Shanghai Futures Exchange copper contract cu2612 daily settlement price was 110320 CNY per tonne. This is a futures settlement, not an LME spot quote.",
+      "citation": 3
+    },
+    {
+      "text": "On 2026-10-08, Shanghai Futures Exchange copper contract cu2611 daily settlement price was 110740 CNY per tonne. This is a futures settlement, not an LME spot quote.",
+      "citation": 4
+    },
+    {
+      "text": "On 2026-10-08, Shanghai Futures Exchange copper contract cu2701 daily settlement price was 109870 CNY per tonne. This is a futures settlement, not an LME spot quote.",
+      "citation": 5
+    }
+  ],
+  "citations": [
+    {
+      "citation": 1,
+      "document_id": "0a7c6c07de36c21df96b4df6",
+      "title": "SHFE copper cu2706 settlement 2026-10-08",
+      "source": "SHFE-public-supplement",
+      "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261008.dat",
+      "published_at": "2026-10-08T07:00:00Z",
+      "quote": "On 2026-10-08, Shanghai Futures Exchange copper contract cu2706 daily settlement price was 109630 CNY per tonne. This is a futures settlement, not an LME spot quote.",
+      "score": 0.032787,
+      "is_demo": false,
+      "price": 109630.0,
+      "currency": "CNY",
+      "unit": "tonne",
+      "contract": "cu2706",
+      "price_type": "futures_settlement"
+    },
+    {
+      "citation": 2,
+      "document_id": "d0684496dff7c6e5e1b8e8a1",
+      "title": "SHFE copper cu2610 settlement 2026-10-08",
+      "source": "SHFE-public-supplement",
+      "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261008.dat",
+      "published_at": "2026-10-08T07:00:00Z",
+      "quote": "On 2026-10-08, Shanghai Futures Exchange copper contract cu2610 daily settlement price was 111550 CNY per tonne. This is a futures settlement, not an LME spot quote.",
+      "score": 0.031514,
+      "is_demo": false,
+      "price": 111550.0,
+      "currency": "CNY",
+      "unit": "tonne",
+      "contract": "cu2610",
+      "price_type": "futures_settlement"
+    },
+    {
+      "citation": 3,
+      "document_id": "cf665e705cce32e1061747eb",
+      "title": "SHFE copper cu2612 settlement 2026-10-08",
+      "source": "SHFE-public-supplement",
+      "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261008.dat",
+      "published_at": "2026-10-08T07:00:00Z",
+      "quote": "On 2026-10-08, Shanghai Futures Exchange copper contract cu2612 daily settlement price was 110320 CNY per tonne. This is a futures settlement, not an LME spot quote.",
+      "score": 0.031498,
+      "is_demo": false,
+      "price": 110320.0,
+      "currency": "CNY",
+      "unit": "tonne",
+      "contract": "cu2612",
+      "price_type": "futures_settlement"
+    },
+    {
+      "citation": 4,
+      "document_id": "92b91538eac7b4e4f85ed64b",
+      "title": "SHFE copper cu2611 settlement 2026-10-08",
+      "source": "SHFE-public-supplement",
+      "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261008.dat",
+      "published_at": "2026-10-08T07:00:00Z",
+      "quote": "On 2026-10-08, Shanghai Futures Exchange copper contract cu2611 daily settlement price was 110740 CNY per tonne. This is a futures settlement, not an LME spot quote.",
+      "score": 0.030579,
+      "is_demo": false,
+      "price": 110740.0,
+      "currency": "CNY",
+      "unit": "tonne",
+      "contract": "cu2611",
+      "price_type": "futures_settlement"
+    },
+    {
+      "citation": 5,
+      "document_id": "5540e4b103e369f7bbf345cb",
+      "title": "SHFE copper cu2701 settlement 2026-10-08",
+      "source": "SHFE-public-supplement",
+      "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261008.dat",
+      "published_at": "2026-10-08T07:00:00Z",
+      "quote": "On 2026-10-08, Shanghai Futures Exchange copper contract cu2701 daily settlement price was 109870 CNY per tonne. This is a futures settlement, not an LME spot quote.",
+      "score": 0.030536,
+      "is_demo": false,
+      "price": 109870.0,
+      "currency": "CNY",
+      "unit": "tonne",
+      "contract": "cu2701",
+      "price_type": "futures_settlement"
+    }
+  ],
+  "filters": {
+    "start": "2026-10-08T00:00:00+00:00",
+    "end": "2026-10-09T00:00:00+00:00",
+    "kind": "price",
+    "country": null,
+    "commodity": "copper"
+  },
+  "embedding": "fastembed",
+  "warnings": [
+    "检索结果来自当前已入库数据，并不代表完整市场覆盖。无结果不能证明没有政策变化。",
+    "当前为可核验的原文摘录回答，不自动推断政策因果，也不混算不同合约、币种或价格口径。"
+  ]
+}

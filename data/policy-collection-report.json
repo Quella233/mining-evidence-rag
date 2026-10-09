@@ -1,0 +1,131 @@
+{
+  "as_of": "2026-10-08",
+  "days": 30,
+  "window_start_inclusive": "2026-09-09T00:00:00+00:00",
+  "window_end_exclusive": "2026-10-09T00:00:00+00:00",
+  "embedding": "hash",
+  "counts_by_source": [
+    {
+      "kind": "news",
+      "source": "International-Mining-public-supplement",
+      "n": 124
+    },
+    {
+      "kind": "news",
+      "source": "Mining-Technology-public-supplement",
+      "n": 109
+    },
+    {
+      "kind": "price",
+      "source": "SHFE-public-supplement",
+      "n": 576
+    }
+  ],
+  "counts_by_kind": {
+    "news": 233,
+    "policy": 0,
+    "price": 576
+  },
+  "category_quantity_target_met": false,
+  "original_source_quantity_target_met": false,
+  "unresolved_requirements": [
+    {
+      "name": "LME-copper-zinc-nickel",
+      "reason": "Supply licensed CSV/JSONL or authorized API export. Public page returned HTTP 403 during initial check; no login bypass."
+    },
+    {
+      "name": "Mysteel-iron-ore",
+      "reason": "Supply licensed CSV/JSONL export; no unverified private API or credentials are included."
+    },
+    {
+      "name": "Lithium",
+      "reason": "The prompt says SHFE lithium; Chinese lithium carbonate futures are on GFEX, not SHFE. Confirm whether GFEX futures or licensed spot prices are intended."
+    },
+    {
+      "name": "S&P-Global-Mining",
+      "reason": "The prompt says RSS links are supplied, but no exact feed URL was attached. Add the provided feed as adapter=rss."
+    }
+  ],
+  "runs": [
+    {
+      "name": "Australia-DISR",
+      "counts": {},
+      "errors": [
+        {
+          "url": "https://www.industry.gov.au/news",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/mining-oil-and-gas/minerals/critical-minerals/critical-minerals-strategy",
+          "error": "Server error '500 Internal Server Error' for url 'https://www.industry.gov.au/mining-oil-and-gas/minerals/critical-minerals/critical-minerals-strategy'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?page=1",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?page=36",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/critical-minerals-production-tax-incentive-forms-timeframes-and-guidance-topics-have-your-say",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/australia-canada-and-india-strengthen-ties-ai-and-emerging-tech",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/european-union-and-australia-discuss-shared-priorities-digital-dialogue",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?page=0",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?page=2",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/take-virtual-tour-australias-ska-telescope-site",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/australian-radioactive-waste-agency-community-conversation-economic-development",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/commercialising-technology-developed-australian-ska-pathfinder",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/what-happens-women-who-graduate-stem-degrees",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/how-does-gender-impact-girls-and-boys-aspirations-stem-study-and-careers",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/second-national-data-report-girls-and-women-stem",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?page=35",
+          "error": "The read operation timed out"
+        }
+      ]
+    },
+    {
+      "name": "China-Rare-Earth-Group",
+      "counts": {},
+      "errors": [
+        {
+          "url": "https://www.chinareg.com/",
+          "error": "No verifiable publication date (not using crawl date)"
+        }
+      ]
+    }
+  ]
+}

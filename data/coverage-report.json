@@ -1,0 +1,67 @@
+{
+  "as_of": "2026-10-08",
+  "days": 30,
+  "total_real_documents": 809,
+  "counts_by_kind": {
+    "news": 233,
+    "policy": 0,
+    "price": 576
+  },
+  "shortfall_by_kind": {
+    "news": 0,
+    "policy": 200,
+    "price": 0
+  },
+  "counts_by_source": [
+    {
+      "kind": "news",
+      "source": "International-Mining-public-supplement",
+      "count": 124
+    },
+    {
+      "kind": "news",
+      "source": "Mining-Technology-public-supplement",
+      "count": 109
+    },
+    {
+      "kind": "price",
+      "source": "SHFE-public-supplement",
+      "count": 576
+    }
+  ],
+  "original_source_category_counts": {
+    "news": 0,
+    "policy": 0,
+    "price": 0
+  },
+  "category_quantity_target_met": false,
+  "original_source_quantity_target_met": false,
+  "price_series": [
+    [
+      "SHFE-public-supplement",
+      "copper",
+      "futures_settlement",
+      "CNY",
+      "tonne"
+    ],
+    [
+      "SHFE-public-supplement",
+      "nickel",
+      "futures_settlement",
+      "CNY",
+      "tonne"
+    ],
+    [
+      "SHFE-public-supplement",
+      "zinc",
+      "futures_settlement",
+      "CNY",
+      "tonne"
+    ]
+  ],
+  "notes": [
+    "Counts are original articles or day+instrument+contract+price-type observations, not chunks.",
+    "SHFE copper/zinc/nickel and supplementary news are not substitutions silently credited to the original providers.",
+    "Lithium venue in the prompt needs clarification: GFEX versus SHFE. Quantity alone does not prove complete instrument or licensed-source coverage."
+  ]
+}

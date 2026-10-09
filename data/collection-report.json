@@ -1,0 +1,418 @@
+{
+  "as_of": "2026-10-08",
+  "days": 30,
+  "window_start_inclusive": "2026-09-09T00:00:00+00:00",
+  "window_end_exclusive": "2026-10-09T00:00:00+00:00",
+  "embedding": "hash",
+  "counts_by_source": [
+    {
+      "kind": "price",
+      "source": "SHFE-public-supplement",
+      "n": 576
+    }
+  ],
+  "counts_by_kind": {
+    "news": 0,
+    "policy": 0,
+    "price": 576
+  },
+  "category_quantity_target_met": false,
+  "original_source_requirements_met": false,
+  "unresolved_requirements": [
+    {
+      "name": "LME-copper-zinc-nickel",
+      "reason": "Supply licensed CSV/JSONL or authorized API export. Public page returned HTTP 403 during initial check; no login bypass."
+    },
+    {
+      "name": "Mysteel-iron-ore",
+      "reason": "Supply licensed CSV/JSONL export; no unverified private API or credentials are included."
+    },
+    {
+      "name": "Lithium",
+      "reason": "The prompt says SHFE lithium; Chinese lithium carbonate futures are on GFEX, not SHFE. Confirm whether GFEX futures or licensed spot prices are intended."
+    },
+    {
+      "name": "S&P-Global-Mining",
+      "reason": "The prompt says RSS links are supplied, but no exact feed URL was attached. Add the provided feed as adapter=rss."
+    }
+  ],
+  "runs": [
+    {
+      "name": "mining.com",
+      "counts": {},
+      "errors": [
+        {
+          "error": "Client error '403 Forbidden' for url 'https://www.mining.com/robots.txt'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        }
+      ]
+    },
+    {
+      "name": "Australia-DISR",
+      "counts": {},
+      "errors": [
+        {
+          "url": "https://www.industry.gov.au/news",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/mining-oil-and-gas/minerals/critical-minerals/critical-minerals-strategy",
+          "error": "Server error '500 Internal Server Error' for url 'https://www.industry.gov.au/mining-oil-and-gas/minerals/critical-minerals/critical-minerals-strategy'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B2906%5D=2906&field_news_date_value=All",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B2970%5D=2970&field_news_date_value=All",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B3058%5D=3058&field_news_date_value=All",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B3057%5D=3057&field_news_date_value=All",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B2931%5D=2931&field_news_date_value=All",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B2941%5D=2941&field_news_date_value=All",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B2944%5D=2944&field_news_date_value=All",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B2945%5D=2945&field_news_date_value=All",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B2962%5D=2962&field_news_date_value=All",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/anti-dumping-commission-becomes-australian-trade-remedies-commission-responsible-safeguard-inquiries",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/australias-radioactive-waste-management-framework-have-your-say",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/new-reviews-examine-australias-offshore-regulators",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/domestic-gas-reservation-bill-have-your-say",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/new-report-explores-safe-oversight-advanced-ai-systems",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/australias-resources-and-energy-export-earnings-set-remain-high",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/123-million-back-australian-companies-developing-quantum-solutions",
+          "error": "No verifiable publication date (not using crawl date)"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/australia-and-uk-consider-innovation-priorities-renewable-energy-life-sciences-and-space",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/update-offshore-decommissioning-and-financial-assurance-reforms",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/nmi-check-animal-and-pet-supplies-national-audit",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/national-science-week-2027-grants-now-open",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/announcing-our-2026-30-corporate-plan",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?page=1",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?page=36",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/announcing-2026-27-may-budget",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/launch-your-stem-career-graduate-2027",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/our-2025-aps-employee-census-results",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/announcing-our-inclusion-strategy-2025-29",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/read-our-annual-report-2024-25",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/announcing-our-2025-29-corporate-plan",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/announcing-2025-26-march-budget",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/make-impact-joining-our-2026-graduate-development-program",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/read-our-annual-report-2023-24",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/our-2024-aps-employee-census-results",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/announcing-our-corporate-plan-2024-28",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B2906%5D=2906&field_news_date_value=All&page=1",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/new-guide-applying-commonwealth-procurement-rules-ict-sector",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/four-new-major-projects-strengthen-australias-supply-chains",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/implementing-future-made-australia-community-benefit-principles-have-your-say",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/guidance-cross-border-electricity-trade-cbet-approvals",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/new-clean-energy-and-resource-projects-awarded-major-project-status",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/new-major-projects-will-help-achieve-net-zero-2050",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/new-projects-will-be-stable-source-critical-minerals-australia",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/three-new-projects-expand-australias-green-energy-potential",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/key-projects-awarded-major-project-status",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/new-hub-opens-support-food-manufacturing-innovation",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/national-reconstruction-fund-corporation-act-have-your-say",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/212-million-support-new-commercialisation-projects",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/domestic-manufacturing-wind-and-transmission-infrastructure-have-your-say",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/net-zero-fund-finalises-design",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/australia-and-china-sign-mou-advance-steel-decarbonisation",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/explore-australian-rail-manufacturing-industry-new-interactive-company-data",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/implementing-net-zero-fund-have-your-say",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/spotlight-industry-and-resources-osaka-world-expo-2025",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/our-sector-plans-industry-and-resources-are-now-available",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B3057%5D=3057&field_news_date_value=All&page=1",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B3057%5D=3057&field_news_date_value=All&page=2",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/critical-minerals-production-tax-incentive-forms-timeframes-and-guidance-topics-have-your-say",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/gas-supply-and-demand-outlook-2026-quarter-4",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/australias-resources-and-energy-export-earnings-set-remain-high-despite-forecast-falls",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/summary-submissions-otway-basin-offshore-petroleum-acreage-release-now-available",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/domestic-gas-reservation-scheme-draft-design-framework-have-your-say",
+          "error": "_ssl.c:1015: The handshake operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/new-guidance-removing-offshore-oil-and-gas-property-commonwealth-waters",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/domestic-gas-supply-shortfall-decision-2026-quarter-3",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B2941%5D=2941&field_news_date_value=All&page=1",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news?news-topic%5B2941%5D=2941&field_news_date_value=All&page=7",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/radioactive-waste-management-market-scan-request-information",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/snapshot-australias-radioactive-waste-2024",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/decision-national-radioactive-waste-management-facility-nrwmf-site",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/arwa-updates-australias-national-inventory-radioactive-waste",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/minister-declares-napandee-site-national-radioactive-waste-management-facility",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/arwa-appoints-its-first-ceo",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/australian-radioactive-waste-agency-community-conversation-health",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/australian-radioactive-waste-agency-community-conversation-economic-development",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/horizon-europe-implementation-have-your-say",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/new-research-funding-support-asia-pacific-solutions",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/celebrate-national-science-week-2026",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/singapore-and-australia-strengthen-collaboration-ai-and-cyber-security",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.industry.gov.au/news/report-explores-risks-and-controls-artificial-intelligence-ai-agents",
+          "error": "The read operation timed out"
+        }
+      ]
+    },
+    {
+      "name": "China-Rare-Earth-Group",
+      "counts": {},
+      "errors": [
+        {
+          "url": "https://www.chinareg.com/",
+          "error": "No verifiable publication date (not using crawl date)"
+        }
+      ]
+    },
+    {
+      "name": "SHFE-public-supplement",
+      "counts": {
+        "inserted": 576
+      },
+      "errors": [
+        {
+          "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261007.dat",
+          "error": "Client error '404 Not Found' for url 'https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261007.dat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        {
+          "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261006.dat",
+          "error": "Client error '404 Not Found' for url 'https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261006.dat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        {
+          "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261005.dat",
+          "error": "Client error '404 Not Found' for url 'https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261005.dat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        {
+          "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261002.dat",
+          "error": "Client error '404 Not Found' for url 'https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261002.dat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        {
+          "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261001.dat",
+          "error": "Client error '404 Not Found' for url 'https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20261001.dat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        {
+          "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20260925.dat",
+          "error": "Client error '404 Not Found' for url 'https://www.shfe.com.cn/data/tradedata/future/dailydata/kx20260925.dat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        }
+      ]
+    }
+  ]
+}
