@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    # 项目交付脚本（start.cmd / setup.cmd / test.cmd）与本地 venv 均为 Windows 形态，
+    # 因此在与开发环境一致的系统上验证，避免跨平台 sqlite-vec 扩展加载差异。
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Run regression tests
+        run: uv run pytest -q
+
+      - name: Build synthetic gold fixtures
+        run: uv run python -m eval.fixtures
+
+      - name: Run synthetic evaluation
+        run: uv run python -m eval.run --allow-demo
