@@ -1,0 +1,211 @@
+{
+  "n": 20,
+  "recall_at_5": 1.0,
+  "answer_faithfulness": 1.0,
+  "expected_answer_accuracy": 1.0,
+  "answered_cases": 20,
+  "evaluation_scope": "synthetic integration benchmark",
+  "faithfulness_definition": "Fraction of emitted extractive claims that occur verbatim in their cited original document. This is citation-span support, not an independent semantic/LLM judge or completeness score. Abstentions excluded and reported separately.",
+  "cases": [
+    {
+      "id": "test-01",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "891ea35bf410d59fecdb2bab"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-02",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "2a1a36403f6bc2f53effe7c9"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-03",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "22145ce9b641dfcbbc154031"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-04",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "c1b999be856e59c775b3ccde"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-05",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "85548ab84125e3a1a6863441"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-06",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "7f41a3404cca266b3a2281af"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-07",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "ca69ac2bcc54e839c6c00a45"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-08",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "e99b8fb73bd394b892646cb7"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-09",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "52bfd1d45afd8553135e1667"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-10",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "97c42041fc4e4bd1a4762c8e"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-11",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "76b70156bc76eebbd925ae21"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-12",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "4cf3c62596e51bac461ea225"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-13",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "2c063c8da7b57648c8b17e30"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-14",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "d5882893add3878cf51e8f4f"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-15",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "e23a8d1bb6e26b53ebc08f96"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-16",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "c5f82b05dd2c473daa2228f0"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-17",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "5239b99d6acb996e7879481c"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-18",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "4db631660f68565f9f236ab7"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-19",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "731595f1bcd7837fcc6acbd0"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "test-20",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "44a9d7dbf646b7243142de60"
+      ],
+      "insufficient_evidence": false
+    }
+  ]
+}

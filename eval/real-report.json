@@ -1,0 +1,291 @@
+{
+  "n": 20,
+  "recall_at_5": 1.0,
+  "answer_faithfulness": 1.0,
+  "expected_answer_accuracy": 0.9,
+  "answered_cases": 20,
+  "evaluation_scope": "provided real-world gold set",
+  "faithfulness_definition": "Fraction of emitted extractive claims that occur verbatim in their cited original document. This is citation-span support, not an independent semantic/LLM judge or completeness score. Abstentions excluded and reported separately.",
+  "cases": [
+    {
+      "id": "real-01",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": false,
+      "retrieved_ids": [
+        "478c5100c927ed737b0c978d",
+        "7028831f6f286753b6684af8",
+        "7cd235bfdd515656bed766f4",
+        "bbd41abb53f3e8c6654f55d8",
+        "c60e83d4118b750a3691be16"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-02",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "1af50feba3bef9d680878a7f",
+        "329ad425de8259f14d725255",
+        "6cb518c20cb928bd8ee702ff",
+        "d8e5baa0632643dff60ff34d",
+        "f9bf498a75fd1c5062893a4f"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-03",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "351d2830ecce90c542e4a3ed",
+        "4256c8d847eb025a89aba6f6",
+        "791d6270ab30e85f008e58b3",
+        "b308decb1c74205091ee1af4",
+        "f7e15a8daf9c0c7cca432f98"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-04",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "0db6d041b19436927a907ae3",
+        "2e569f1e6b16c7d0686175e0",
+        "62af86acdcb742ad58a12a81",
+        "7f75fccb87e7f6a4bdbd584f",
+        "ba7389887d74c42c2bf39257"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-05",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "13b586f03212822548b3fa1b",
+        "2713554a05af689499cedaf7",
+        "2bfdce31192145f62df8bc02",
+        "325f7f98ac6a5eb5750a83be",
+        "4e25574f9e8bb7310528edd5"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-06",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "0401f78d8802bd45618dd5dd",
+        "2cf7f8b551a673f737eaf017",
+        "574a6e7234668145ac6d648e",
+        "5c75d50d37747da7b839cc59",
+        "c4059f925b5a4f72a9b995e5"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-07",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": false,
+      "retrieved_ids": [
+        "057bde3419d8e9c0e2839229",
+        "56f4c0f6c34b2f6e784fa6f8",
+        "681519dbd8be16ef5244acee",
+        "95d63e9b971871eb450bc716",
+        "af60596c3317ebdfbf5ebea6"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-08",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "210d3e729bdbde74a38995c9",
+        "2e50d39133dcb8e869d43ac2",
+        "4fce34c9ed6fd6b4a4574700",
+        "7a39f368bf38ab0c1a329f39",
+        "b8e4f606f6bb81586b92575e"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-09",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "32d600771a61a9146da62ccc",
+        "7867ac1288c8db116b401c37",
+        "7a39f368bf38ab0c1a329f39",
+        "cd486b264b328e44cee2a1c7",
+        "f2b823513fdce8d7aa0a481b"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-10",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "7cd235bfdd515656bed766f4",
+        "c1a0a69990c5c2fa185ff331",
+        "c60e83d4118b750a3691be16",
+        "cecef2c3848ddcad7a032b67",
+        "f18dca916a76c9e812cc6b54"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-11",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "02be6b7148eed652fdd0a859",
+        "7a2acce74e53d330103e939a",
+        "8f1c59b7c332767c6e481518",
+        "cb57bfe5370d8ceda0fd08b3",
+        "d07cb13bc0c06367b8130190"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-12",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "0a7c6c07de36c21df96b4df6",
+        "5540e4b103e369f7bbf345cb",
+        "92b91538eac7b4e4f85ed64b",
+        "cf665e705cce32e1061747eb",
+        "d0684496dff7c6e5e1b8e8a1"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-13",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "13753db235d6ae9a0da22428",
+        "863060f951a9e789bb8e39c0",
+        "d0c474a522d4bb2f45dc7653",
+        "d7da2b8a3df89bacd4a5213f",
+        "f5ecd8f70ef6f0be8c3b95f8"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-14",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "1831ec43e69b3e21a2219ca9",
+        "5b7366cd98b75067b5b92af5",
+        "863060f951a9e789bb8e39c0",
+        "d0c474a522d4bb2f45dc7653",
+        "f5ecd8f70ef6f0be8c3b95f8"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-15",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "3fc3cd4c94146e79b3483181",
+        "709620d0aec87500ec7c440f",
+        "863060f951a9e789bb8e39c0",
+        "d0c474a522d4bb2f45dc7653",
+        "f5ecd8f70ef6f0be8c3b95f8"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-16",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "0a7c6c07de36c21df96b4df6",
+        "49877420266ca71a6a83469a",
+        "92b91538eac7b4e4f85ed64b",
+        "cf665e705cce32e1061747eb",
+        "d0684496dff7c6e5e1b8e8a1"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-17",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "0a7c6c07de36c21df96b4df6",
+        "5540e4b103e369f7bbf345cb",
+        "92b91538eac7b4e4f85ed64b",
+        "cf665e705cce32e1061747eb",
+        "d0684496dff7c6e5e1b8e8a1"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-18",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "13753db235d6ae9a0da22428",
+        "5b7366cd98b75067b5b92af5",
+        "863060f951a9e789bb8e39c0",
+        "d0c474a522d4bb2f45dc7653",
+        "f5ecd8f70ef6f0be8c3b95f8"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-19",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "1831ec43e69b3e21a2219ca9",
+        "709620d0aec87500ec7c440f",
+        "863060f951a9e789bb8e39c0",
+        "d0c474a522d4bb2f45dc7653",
+        "f5ecd8f70ef6f0be8c3b95f8"
+      ],
+      "insufficient_evidence": false
+    },
+    {
+      "id": "real-20",
+      "recall_at_5": 1.0,
+      "answer_faithfulness": 1.0,
+      "expected_answer_present": true,
+      "retrieved_ids": [
+        "73e40cc554324202e87581e7",
+        "7a2acce74e53d330103e939a",
+        "8f1c59b7c332767c6e481518",
+        "cb57bfe5370d8ceda0fd08b3",
+        "d07cb13bc0c06367b8130190"
+      ],
+      "insufficient_evidence": false
+    }
+  ]
+}
