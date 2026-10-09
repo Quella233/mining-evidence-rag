@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {"name": "mining.com", "adapter": "rss", "kind": "news", "url": "https://www.mining.com/feed/?paged={page}", "max_pages": 30},
+    {"name": "Australia-DISR", "adapter": "policy", "kind": "policy", "country": "australia", "urls": ["https://www.industry.gov.au/news", "https://www.industry.gov.au/mining-oil-and-gas/minerals/critical-minerals/critical-minerals-strategy"], "keywords": ["critical mineral", "rare earth", "lithium", "copper", "nickel", "export"], "max_pages": 80},
+    {"name": "China-Rare-Earth-Group", "adapter": "policy", "kind": "policy", "country": "china", "urls": ["https://www.chinareg.com/"], "path_terms": ["news", "xinwen", "xw", "2026", "2025"], "keywords": ["政策", "条例", "办法", "出口", "战略"], "max_pages": 80},
+    {"name": "SHFE-public-supplement", "adapter": "shfe", "kind": "price", "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx{date}.dat"},
+    {"name": "International-Mining-public-supplement", "adapter": "rss", "kind": "news", "url": "https://im-mining.com/feed/?paged={page}", "max_pages": 20},
+    {"name": "Mining-Technology-public-supplement", "adapter": "rss", "kind": "news", "url": "https://www.mining-technology.com/feed/?paged={page}", "max_pages": 20}
+  ],
+  "authorization_required": [
+    {"name": "LME-copper-zinc-nickel", "reason": "Supply licensed CSV/JSONL or authorized API export. Public page returned HTTP 403 during initial check; no login bypass."},
+    {"name": "Mysteel-iron-ore", "reason": "Supply licensed CSV/JSONL export; no unverified private API or credentials are included."},
+    {"name": "Lithium", "reason": "The prompt says SHFE lithium; Chinese lithium carbonate futures are on GFEX, not SHFE. Confirm whether GFEX futures or licensed spot prices are intended."},
+    {"name": "S&P-Global-Mining", "reason": "The prompt says RSS links are supplied, but no exact feed URL was attached. Add the provided feed as adapter=rss."}
+  ]
+}

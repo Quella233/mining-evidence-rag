@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/*.db*
+data/cache/
+data/server.json
+data/*.log
+eval/tests.xml
+.env
+

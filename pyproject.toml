@@ -1,0 +1,25 @@
+[project]
+name = "mining-interview-pipeline"
+version = "0.1.0"
+description = "Auditable mining news, policy and price retrieval pipeline"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "httpx>=0.28,<1",
+  "beautifulsoup4>=4.13,<5",
+  "feedparser>=6.0,<7",
+  "python-dateutil>=2.9,<3",
+  "numpy>=2.2,<3",
+  "sqlite-vec>=0.1.6,<0.2",
+  "rank-bm25>=0.2.2,<0.3",
+  "fastembed>=0.7,<1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
